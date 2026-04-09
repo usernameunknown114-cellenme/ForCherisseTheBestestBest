@@ -136,7 +136,7 @@ export default function Hero({ onOpenGift, isGiftOpened }: HeroProps) {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
             >
-              Hey, Cherrise 🌿
+              Mahal, Cherisse 🌿
             </motion.h1>
 
             <motion.div
@@ -149,11 +149,11 @@ export default function Hero({ onOpenGift, isGiftOpened }: HeroProps) {
                 "palagi mong piliin kung saan payapa ang puso mo"
               </p>
               <p className="mt-3 text-sm text-[#2d5a27]/70">
-                Gumawa ako ng isang maliit na mundo — para sa iyo lang.
+                Pitong buwan na — at bawat araw ay patuloy pa ring nagpapaganda.
               </p>
               <p className="pt-3">
                 <span className="font-semibold text-[#4a7c59]">
-                  Pindutin mo ito para makita mo ✨
+                  May espesyal para sa iyo dito ✨
                 </span>
                 <span className="inline-block w-1.5 h-4 bg-[#7bbf8a]/70 ml-1 animate-cursor"></span>
               </p>

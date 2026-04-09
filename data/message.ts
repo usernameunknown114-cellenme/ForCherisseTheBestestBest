@@ -1,15 +1,20 @@
 export const messageData = {
-  title: 'Para sa iyo, Cherrise 🌼',
+  title: 'Para sa iyo, Cherisse 🌼',
   subtitle: 'A little world made just for you.',
-  body: `Cherrise,
+  body: `Cherisse,
 
-Hindi ko alam kung paano sinimulan ito nang tama — pero alam ko na gusto kitang makilala nang mas malalim. 
+Pitong buwan na —
+at hindi pa rin ako nasasawang tumingin sa iyo.
 
-Nakita kita sa iyong mga litrato, sa iyong sining, sa bawat kwento mo — at naisip ko: ang taong ito ay espesyal.
+Hindi sa iyong kagandahan lamang,
+kundi sa paraan ng iyong pagtawa,
+sa iyong katahimikan kapag nag-iisip ka,
+sa bawat maliit na bagay na ikaw lamang ang may-ari.
 
-Palagi mong piliin kung saan payapa ang puso mo.
+Salamat sa bawat araw na pitong buwang iyon
+na pinili mo akong manatili.
 
-— Para sa iyo, lagi. 💚`,
+— Iyo, ngayon at palagi. 💚`,
   cta: 'Open this little world ✨',
   toast: {
     copied: 'Copied! 💌',

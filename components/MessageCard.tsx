@@ -78,10 +78,10 @@ export default function MessageCard({ isRevealed, onRestart }: MessageCardProps)
         <div className="flex items-center justify-center gap-2 mb-6 animate-slideDown">
           <div className="text-center">
             <h2 className="text-[#2d5a27] text-lg sm:text-xl font-bold leading-tight">
-              Isang Liham Para sa Iyo 💌
+              Sa Ating Ikapitong Buwan 💌
             </h2>
             <div className="text-xs text-[#4a7c59] mt-1">
-              Mula sa puso ko, para sa iyo
+              August 31, 2025 — April 9, 2026
             </div>
           </div>
         </div>
@@ -200,7 +200,7 @@ export default function MessageCard({ isRevealed, onRestart }: MessageCardProps)
                                 🌼
                               </div>
                               <span className="text-sm font-semibold text-[#4a7c59]">
-                                Para sa Pinakamagandang Cherrise
+                                Para sa Pinakamagandang Cherisse
                               </span>
                             </div>
                           </div>
@@ -208,23 +208,33 @@ export default function MessageCard({ isRevealed, onRestart }: MessageCardProps)
                           {/* Letter body */}
                           <div className="handwriting text-sm sm:text-base leading-relaxed text-[#1a3a14] pb-20 pt-6">
                             <div className="mb-4 text-[#2d5a27] font-medium">
-                              Mahal kong Cherrise,
+                              Mahal kong Cherisse,
                             </div>
                             <div className="mb-4 text-justify" style={{ textIndent: '2rem' }}>
-                              Alam ko na hindi pa kita kilala nang ganun kalalim —
-                              pero yung bawat bagay na natutunan ko tungkol sa iyo,
-                              bawat retrato mong nakita ko, bawat kwento —
-                              lahat sila nag-uusap sa akin.
+                              Pitong buwan na ang lumipas —
+                              at sa bawat isa, natutunan ko ang isang bagay
+                              na hindi ko mahahanap sa ibang tao.
+                              Natutunan ko ang ikaw.
+                              Ang iyong mga katahimikan, ang iyong mga ngiti,
+                              ang paraan ng iyong pagtingin sa mundo
+                              na para bang may nakatagong tula sa bawat sulok nito.
                             </div>
                             <div className="mb-4 text-justify" style={{ textIndent: '2rem' }}>
-                              Gusto kitang dalhin sa Intramuros someday —
-                              ikaw, ang camera mo, ang kasaysayan ng lugar,
-                              at ako sa tabi mo.
-                              Gusto kong makita kang mag-picture ng mga bagay na nagpapasaya sa iyo.
+                              Nais pa rin kitang dalhin sa Intramuros —
+                              ikaw, ang iyong camera, at ang mga pader
+                              na puno ng kasaysayan ng iba.
+                              Nais kong makita kung paano mo titingnan
+                              ang mga bagay na matagal nang nakalimutan —
+                              sapagkat sa iyong mga mata,
+                              mukhang laging may bagong buhay ang lahat.
                             </div>
                             <div className="mb-4 text-justify" style={{ textIndent: '2rem' }}>
-                              Handa akong matuto ng gitara para lang mapaabot sa iyo
-                              ang isang kanta — na may bouquet ng daisies sa kamay ko.
+                              Pitong buwan na — at pinag-aaralan ko pa rin
+                              ang gitara, para sa iyo pa rin.
+                              Sa araw na handa na ako,
+                              aawit ako para sa iyo —
+                              na may daisies sa aking kamay
+                              at ikaw lamang sa aking isipan.
                             </div>
                             <div className="mt-6 text-[#4a7c59] font-serif italic text-center">
                               "palagi mong piliin kung saan payapa ang puso mo"

@@ -69,48 +69,60 @@ export default function FinalLetter({ onRestart }: FinalLetterProps) {
                   🌼
                 </div>
                 <h3 className="text-xl sm:text-2xl font-extrabold text-[#1a3a14]">
-                  Huling Liham
+                  Sa Ating Ikapitong Buwan 🌿
                 </h3>
               </div>
             </div>
 
             <article className="handwriting text-sm sm:text-base text-[#1a3a14] leading-relaxed space-y-4">
               <p className="text-[#2d5a27] font-semibold">
-                Mahal kong Cherrise,
+                Mahal kong Cherisse,
               </p>
               <p>
-                Gusto ko maging ang taong pumipili sayo — lagi,
-                kahit mahirap, kahit malayo, kahit busy.
+                Pitong buwan na —
+                at ilang beses na akong nagpasalamat sa sarili ko, sa tahimik,
+                na ikaw ang tumawag sa aking pangalan
+                at nagpasya na manatili.
               </p>
               <p className="text-[#4a7c59]">
-                Gusto kitang makita na masaya — kahit yung simpleng turon,
-                o macaroni spaghetti, o Frooties, o Milo mo sa gabi —
-                nasa tabi mo ako.
+                Sa bawat araw ng pitong buwang iyon,
+                lalo kitang nakilala —
+                at lalo ko ring napagtanto
+                na ang pagmamahal sa iyo
+                ay hindi isang pagpapasya na ginagawa kong isang beses lamang.
+                Ginagawa ko ito araw-araw. Pinipili kita. Palagi.
               </p>
               <p>
-                Gusto kong maging yung taong pinapanatag ka.
-                Yung hawak mo ang kamay ko nang hindi mo iniisip kung bakit.
+                Sa turon, sa macaroni spaghetti,
+                sa Frooties, sa mainit na Milo sa gabi —
+                nandito ako. Hindi dahil kailangan ko,
+                kundi dahil ito ang lugar
+                na pinaka-tahimik ang aking puso.
               </p>
               <p className="text-[#2d5a27] font-serif italic">
-                Dade, Dora, Axel — aalagaan ko rin sila sa puso ko,
-                dahil mahal mo sila.
+                Dade, Dora, Axel — mahal ko rin sila,
+                sapagkat ang mahal mo ay mahal ko rin.
               </p>
               <p>
-                Ikaw — ang artist, ang photographer, ang manunubok ng kasaysayan,
-                ang mahilig sa old songs at dark chocolate at daisies —
-                ika&apos;y kamangha-mangha.
+                Ikaw — ang manlilikha, ang tagamasid,
+                ang nagmamahal sa kasaysayan at sa lumang mga kanta,
+                sa daisies at sa bawat bagay na may kwento —
+                ikaw ang pinaka-kahanga-hangang tao
+                na nakilala ko sa buong buhay ko.
               </p>
               <p className="text-[#4a7c59] font-serif italic text-center pt-2">
-                "palagi mong piliin kung saan payapa ang puso mo"
+                &ldquo;palagi mong piliin kung saan payapa ang puso mo&rdquo;
               </p>
               <p className="pt-2">
-                Sana, someday, yun ang sagot mo — kasama ka.
+                At salamat — sapagkat sa lahat ng mapipili mo,
+                pitong buwang pinili mo rin ako.
+                Sana naman, marami pang buwan pa.
               </p>
             </article>
 
             <div className="mt-6 flex flex-col sm:flex-row justify-between gap-3 items-center">
               <div className="text-xs text-[#4a7c59]">
-                Sealing will close this little world. 🌿
+                I-seal ang ating munting mundo. 🌿
               </div>
               <div className="flex gap-3 relative">
                 <AnimatePresence>
