@@ -6,6 +6,7 @@ import { messageData } from '@/data/message';
 import { showToast } from '@/lib/toast';
 import Playlist from '@/components/Playlist';
 import FlipCards from '@/components/FlipCards';
+import PhotoGallery from '@/components/PhotoGallery';
 import TypewriterText from '@/components/TypewriterText';
 
 interface MessageCardProps {
@@ -18,6 +19,7 @@ export default function MessageCard({ isRevealed, onRestart }: MessageCardProps)
   const [showLetter, setShowLetter] = useState(false);
   const [showPlaylist, setShowPlaylist] = useState(false);
   const [showFlipCards, setShowFlipCards] = useState(false);
+  const [showPhotoGallery, setShowPhotoGallery] = useState(false);
   const [typewriterComplete, setTypewriterComplete] = useState({
     signature: false,
     love: false,
@@ -64,7 +66,8 @@ export default function MessageCard({ isRevealed, onRestart }: MessageCardProps)
 
   if (!isRevealed) return null;
   if (showFlipCards) return <FlipCards onRestart={onRestart} />;
-  if (showPlaylist) return <Playlist onContinue={() => setShowFlipCards(true)} />;
+  if (showPhotoGallery) return <PhotoGallery onContinue={() => setShowFlipCards(true)} />;
+  if (showPlaylist) return <Playlist onContinue={() => setShowPhotoGallery(true)} />;
 
   return (
     <div className="page-container font-display relative min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 md:px-8 py-6">
